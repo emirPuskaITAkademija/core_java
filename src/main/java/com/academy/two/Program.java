@@ -1,4 +1,4 @@
-package com.academy;
+package com.academy.two;
 
 //git  gitHub
 public class Program {
