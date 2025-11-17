@@ -7,6 +7,7 @@ public class BooleanDemo {
         System.out.println("Hej zdravo. Upiši omiljeni broj");
         int omiljeniBroj = new Scanner(System.in).nextInt();
         boolean condition = omiljeniBroj==23;//true ili false
+
         if(condition){
             System.out.println("Zadovoljio si..");
         }else{
