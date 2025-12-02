@@ -1,10 +1,13 @@
 package com.academy.eight.demo;
 
+import com.academy.eight.demo.oop.Movie;
+
 /**
  * Brojimo koliko se puta javlja slovo 'p' ili 'P' u rečenici.
  */
 public class ContinueDemo {
     public static void main(String[] args) {
+        Movie movie = new Movie();
         String text = "Petar Pan je pojeo pet plavih šljiva";
         int counter = 0;
         for (int i = 0; i < text.length(); i++) {
